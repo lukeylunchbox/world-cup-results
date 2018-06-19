@@ -17,6 +17,7 @@ function Match({
             <h2>
                 {stadium.name}
             </h2>
+                <img src={stadium.image} alt="Stadium pic" width='300px' />
         </div>
         <div className="card-body">
             <TeamScore 
